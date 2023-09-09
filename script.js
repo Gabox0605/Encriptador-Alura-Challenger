@@ -8,5 +8,5 @@ function encriptar(){
     var textoEncriptado = textoEncriptado.replace(/a/img,"ai");
     var textoEncriptado = textoEncriptado.replace(/u/img,"ufat");
 
-    document.getElementById("textoDesencriptado").innerHTML= textoEncriptado
+    document.getElementById("#textoDesencriptado").innerHTML= textoEncriptado;
 }
